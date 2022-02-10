@@ -1,0 +1,386 @@
+* not:i{
+    font-family: 'Times New Roman', Times, serif; 
+    color : white;
+   }
+   
+   .label-go-back{
+     margin-top : 10rem;
+     color: white;
+   }
+   
+   .white{
+     color:white;
+   }
+   
+   .text-center{
+     text-align:center;
+   }
+   
+   .text-left{
+     text-align:left;
+   }
+   
+   .left{
+     float:left;
+   }
+   
+   .right{
+     float:right;
+   }
+   
+   
+   .p-grey{
+     color:antiquewhite;
+   }
+   
+   
+
+   
+   @media (min-width: 992px){
+     .create-collectible {
+       max-width: 50%;
+     }
+   }
+
+   @media (max-width: 500px){
+    #btn-add-token{
+     position: relative;
+    }
+  }
+   
+   
+   .create-item{
+     border:1px solid bisque;
+     border-radius: 10px;
+     margin: 0 5px;
+     height: 15rem;
+     margin-top: 15px;
+     background: #fbfbfb;
+     cursor: pointer;
+   }
+   
+   .create-item:hover{
+     border: 1px solid bisque;
+     border-radius: 10px;
+     margin: 0 5px;
+     height: 15rem;
+     margin-top: 15px;
+     background: #1b222e;
+     cursor: pointer;
+     transition: 0.3s;
+     color: white;
+   }
+   
+   .m-center{
+     margin:0 auto;
+     padding: 0 5px;
+   }
+   
+   
+      
+   .img-create{
+     width: 80px;
+     margin-top: 2rem;
+   }
+   
+   .label-nft-group{
+     font-size: 24px;
+     margin-top: 21px;
+     font-weight: bold;
+   }
+   
+   .create-note{
+     font-size:1rem;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     color: bisque;
+   }
+   
+   .mt-1{
+     margin-top: 1rem;
+   }
+   
+   .mt--1{
+     margin-top: -0.5rem;
+   }
+   
+   .mt-2{
+     margin-top: 3rem !important;
+   }
+   
+   .label-create{
+     font-size:20px;
+     font-weight: bold;
+   }
+   
+   .label-description{
+     color:wheat;
+   }
+   
+   .MuiInput-root {
+     color: white !important;
+   }
+   
+   .makeStyles-margin-4 {
+     margin: 0px !important;
+   }
+   
+   .ml-0{
+     margin-left:0;
+   }
+   
+   .MuiFormControl-root {
+     width:100% !important;
+   }
+   
+   .mb-2{
+     margin-bottom:2rem !important;
+   }
+   
+   
+   .mb-3{
+     margin-bottom:3rem !important;
+   }
+   
+   
+   .mb-4{
+     margin-bottom:4rem !important;
+   }
+   
+   #instantSaleValue{
+     transition: 2s;
+   }
+   
+   .mt-5{
+     margin-top:5rem !important;
+   }
+   
+   
+   #btn-connect{
+     width: 70%;
+     margin: 0 auto;
+   }
+
+   #btn-file{
+    width: 50%;
+    margin-top: 20px;
+   }
+   
+   .p-0 {
+     padding-left:0;
+     padding-right:0;
+   }
+   
+   
+   .MuiFormControl-root {
+     margin: 0px !important;
+   }
+   
+   aside img{
+     width: 20rem;
+     border: 1px solid;
+     padding: 2px;
+     border-radius: 10px;
+   }
+
+   .nft-load-image{
+    width: 70%;
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 10px;
+  }
+
+   
+   #dropZone{
+     border: 8px dotted;
+     padding: 10%;
+     color: white;
+     border-radius: 7%;
+     text-align: center;
+   }
+   
+   .img-font{
+     color: white;
+     font-size: 23px;
+     text-align: center;
+     margin-bottom: 2rem;
+   }
+
+   .makeStyles-paper-4 {
+      text-align: center;
+      border: 4px solid #da9311;
+   }
+   
+   .upppercase{
+      text-transform: uppercase;
+   }
+   
+
+   .normal-font{
+     color : #212529;
+   }
+
+   .MuiButton-label{
+     color: white;
+   }
+
+   .MuiButton-label:hover {
+    color: white;
+  }
+  
+  #closeModal{
+    float: right;
+    margin-top: -70px;
+    font-size: 23px;
+    font-weight: bold;
+    margin-right: -20px;
+  }
+
+  .mt-2-1{
+    margin-top: 2rem !important;
+  }
+
+  .white{
+    color:white;
+  }
+   
+
+  .mb-1{
+    margin-bottom: 1rem !important;
+  }
+   
+
+  .connect-wallet{
+    width: 20rem;
+    border: 4px solid #f7911d;
+    margin: 1 auto;
+    margin: 4rem auto;
+    background: white;
+    padding: 1rem 1rem;
+  }
+
+
+  .carousel .thumbs {
+    text-align:center
+  }
+
+  .carousel .slide .legend{
+    /* height: 19rem; */
+    bottom: 42% !important;
+    background: none !important;
+    font-size: 32px !important;
+    color: #19141a !important;
+    font-size: 55px;
+    opacity: 1 !important;
+    font-weight: bold;
+    -webkit-text-stroke-width: thin;
+    text-shadow: 3px 3px 2px #fffdfc;
+    transition: none !important;
+
+  }
+
+
+  .form-valid-notify{
+    color: red;
+  }
+
+  .MuiInput-underline:before {
+    
+    border-bottom: 1px solid rgb(255 255 255) !important;
+}
+
+.MuiInput-root {
+  width: 100%;
+}
+
+
+
+#toast-container-main {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 9999999;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+#toast-container-main > div {
+  background-color: rgba(0, 0, 0, 0.15);
+  color: white;
+  width: 100%;
+  margin-bottom: 10px;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  animation: slide-in 0.2s;
+  transition: all 0.3s ease;
+}
+
+.toast-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-weight: 900;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.MuiInputBase-root {
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  position: relative;
+  font-size: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.1876em;
+  letter-spacing: 0.00938em;
+}
+
+.MuiInputBase-input {
+  font: inherit;
+  color: currentColor;
+  width: 100%;
+  border: 0;
+  height: 1.1876em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  -webkit-tap-highlight-color: transparent;
+  border-bottom: 1px solid;
+}
